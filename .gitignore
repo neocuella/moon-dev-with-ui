@@ -53,6 +53,10 @@ venv/
 ENV/
 .env/
 .venv/
+.env
+ui/.env
+backend/.env
+backend/venv
 
 # IDEs and Editors
 .idea/
@@ -61,6 +65,8 @@ ENV/
 *.swo
 .DS_Store
 Thumbs.db
+ui/node_modules/
+.amp/
 
 # Logs and Databases
 *.log
